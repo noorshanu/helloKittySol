@@ -52,9 +52,9 @@ function Hero() {
           alt=""
         />
 
-        <p className=" text-xs py-2 sm:text-xl font-semibold">
-          Contract: wewrfesjkfhsdkfjghdxkhkldxfhjos
-        </p>
+        <a href="https://solscan.io/token/GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN" target="_blank" className=" text-xs py-2 sm:text-xl font-semibold">
+          Contract: GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN
+        </a>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
           <a
             href="/"
