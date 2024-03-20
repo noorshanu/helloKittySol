@@ -8,35 +8,69 @@ function Hero() {
       /> */}
 
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
-        <img src="images/cloud1.png" alt="" className="x1 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[160px]  " />
-        <img src="images/star.png" alt="" className="floating  absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block" />
-        <img src="images/star2.png" alt="" className="floating  absolute top-[46%] right-[10%] w-auto h-[120px] hidden sm:block" />
-        <img src="images/cloud2.png" alt="" className="x2 absolute w-auto h-[170px] hidden sm:block" />
-        <img src="images/cloud2.png" alt="" className="x4 absolute w-auto h-[150px] hidden sm:block" />
-        <img src="images/cloud1.png" alt="" className="x3 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[170px]  " />
+        <img
+          src="images/cloud1.png"
+          alt=""
+          className="x1 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[160px]  "
+        />
+        <img
+          src="images/star.png"
+          alt=""
+          className="floating  absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block"
+        />
+        <img
+          src="images/star2.png"
+          alt=""
+          className="floating  absolute top-[46%] right-[10%] w-auto h-[120px] hidden sm:block"
+        />
+        <img
+          src="images/cloud2.png"
+          alt=""
+          className="x2 absolute w-auto h-[170px] hidden sm:block"
+        />
+        <img
+          src="images/cloud2.png"
+          alt=""
+          className="x4 absolute w-auto h-[150px] hidden sm:block"
+        />
+        <img
+          src="images/cloud1.png"
+          alt=""
+          className="x3 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[170px]  "
+        />
+
+        <h2 className=" py-2 font-dream2 text-xl font-medium mt-12">
+        Welcome to SKITTY: Where Staking's a Treat and Rewards are Extra Sweet
+        </h2>
         <img
           src="/images/hero-img.png"
           className="w-full lg:w-[55%] lg:h-[60%] object-contain"
           data-aos="fade-up"
-     data-aos-offset="300" data-aos-duration="1500" 
-     data-aos-easing="ease-in-sine"
+          data-aos-offset="300"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-sine"
           alt=""
         />
 
-        <p className=" text-xs py-2 sm:text-xl font-semibold">Contract: wewrfesjkfhsdkfjghdxkhkldxfhjos</p>
+        <p className=" text-xs py-2 sm:text-xl font-semibold">
+          Contract: wewrfesjkfhsdkfjghdxkhkldxfhjos
+        </p>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
+          <a
+            href="/"
+            target=""
+            className=" bg-[#fff] border-2 rounded-3xl py-1 px-4  font-bold text-sm sm:text-2xl font-dream2 "
+          >
+            DexTools
+          </a>
 
-         
-            <a href="/" target="" className=" bg-[#fff] border-2 rounded-3xl py-1 px-4  font-bold text-sm sm:text-2xl font-dream2 ">
-              DexTools
-            </a>
-       
-      
-      
-            <a href="https://t.me/skittysol" target="_blank" className=" font-bold text-sm sm:text-2xl font-dream2 bg-[#fff] border-2 rounded-3xl py-1 px-4  ">
-             Telegram
-            </a>
-          
+          <a
+            href="https://t.me/skittysol"
+            target="_blank"
+            className=" font-bold text-sm sm:text-2xl font-dream2 bg-[#fff] border-2 rounded-3xl py-1 px-4  "
+          >
+            Telegram
+          </a>
         </div>
       </div>
     </section>
