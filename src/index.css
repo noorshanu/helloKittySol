@@ -50,7 +50,7 @@
 
   html,
   body {
-    @apply bg-[#f5f3e6] text-black overflow-x-hidden;
+    @apply bg-[#ff6594] text-black overflow-x-hidden;
   }
 
   .container-wrapper {
@@ -86,6 +86,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fffbee;
  
 }
 

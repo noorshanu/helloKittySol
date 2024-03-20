@@ -25,17 +25,19 @@ const SocialLink = ({ children }) => {
 
 function JoinCommunity() {
   return (
-    <section className="pt-24 relative z-10 overflow-hidden bg-foot">
+    <section className="pt-24 relative z-10 overflow-hidden ">
       <div className="container-wrapper">
         <div className=" flex items-center justify-between"></div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 mb-2 lg:mb-20 text-center lg:text-left space-y-6 lg:space-y-0">
+        <div className="flex flex-col  items-center justify-between gap-10 mb-2 lg:mb-20 text-center lg:text-left space-y-6 lg:space-y-0">
           <div className=" max-w-xl">
 
-          <img src="images/foot-logo.png" alt="" className="h-[16rem]" />
+          <img src="images/logo.png" alt="" className="h-[10rem]" />
+
+          <h2 className=" py-2 text-4xl font-medium text-center font-dream2">Skitty</h2>
           </div>
-          <div className=" w-full  max-w-xl  space-y-8">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-dream lh-1_4">
+          <div className=" w-full  max-w-xl  space-y-2">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-dream2 lh-1_4 text-center">
               JOIN OUR COMMUNITY
             </h1>
 
@@ -45,7 +47,7 @@ function JoinCommunity() {
               placeholder="Your email"
             />
 
-            <div className="flex items-center gap-5 justify-center lg:justify-end">
+            {/* <div className="flex items-center gap-5 justify-center lg:justify-end">
              <a href="/">
               <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
              </a>
@@ -56,13 +58,13 @@ function JoinCommunity() {
              <a href="/">
               <img src="X.png" alt="" className="w-auto h-[55px]" />
              </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
         <div className="flex  items-center justify-center ">
-          <p className="text-center  font-bold">
-            All rights reserved | by BonggoCatToken 2023
+          <p className="text-center font-dream2  font-bold">
+            All rights reserved | by Skitty 2023
           </p>
         </div>
       </div>

@@ -12,31 +12,33 @@ function Navbar() {
 
   return (
     <>
-      <nav className="z-[100] bg-white lg:bg-transparent">
-        <div className="container-wrapper bg-white h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
+      <nav className="z-[100] lg:bg-transparent">
+        <div className="container-wrapper shadow-lg h-14 lg:h-16  rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
           <div className="items-center justify-evenly text-base font-medium text-black hidden lg:flex">
             <Link
               to="/"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm sm:text-xl font-dream2"
             >
-            HOME
+            Home
             </Link>
-            <Link
-              to="#"
+            <a
+            href="/"
+            target="_blank"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm sm:text-xl font-dream2"
             >
-            WHITEPAPER
-            </Link>
+           Telegram
+            </a>
           </div>
 
-          <div>
+          <div className=" flex items-center gap-2">
             <img
               src="/images/logo.png"
-              className="w-full max-w-[11rem] lg:max-w-none"
+              className="w-full max-w-[3.2rem] "
               alt=""
             />
+            <p className=" font-dream2  text-xl sm:text-2xl">Skitty</p>
           </div>
 
           <button
@@ -47,19 +49,19 @@ function Navbar() {
           </button>
 
           <div className="items-center justify-evenly text-base font-medium text-black hidden lg:flex">
-            <Link
+            <a href="https://twitter.com/skittyyy_sol" target="_blank"
               to="roadmap"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm sm:text-xl font-dream2"
             >
-              ROADMAP
-            </Link>
+            Twitter
+            </a>
             <Link
               to="tokenomics"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm xl:text-xl font-dream2"
             >
-           TOKENOMICS
+           Tokenomics
             </Link>
           </div>
         </div>
@@ -91,7 +93,7 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-           WHITEPAPER
+          Telegram
           </Link>
           <Link
             to="roadmap"

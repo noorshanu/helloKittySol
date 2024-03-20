@@ -8,7 +8,7 @@ function Partners() {
             <div className='relative'>
                 
                 <div className=' text-center '>
-                    <h1 className=' text-2xl sm:text-4xl  font-dream  uppercase'>BONGO CAT Partners</h1>
+                    <h1 className=' text-2xl sm:text-4xl  font-dream2 font-semibold  uppercase'> Partners</h1>
 
                 </div>
             </div>

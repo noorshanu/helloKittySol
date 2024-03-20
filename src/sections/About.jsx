@@ -3,18 +3,28 @@ import Title from "components/Title";
 function About() {
   return (
     <section className=" relative">
-      <div>
+      {/* <div>
         <img src="images/bg-rain.png" alt="" className=" absolute -top-[25%] -z-1" />
-      </div>
+      </div> */}
       <div className="container-wrapper text-center block relative z-10">
         <div>
-          <Title className="lh-1_5 mb-3 uppercase" data-aos="fade-up"
-     data-aos-offset="300" data-aos-duration="1500" 
-     data-aos-easing="ease-in-sine">WHAT IS BONGO CAT?</Title>
+          <Title
+            className="lh-1_5 mb-3 uppercase"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine"
+          >
+            WHAT IS Skitty ?
+          </Title>
 
-          <p className="font-daughter text-base sm:text-xl font-medium " data-aos="fade-up"
-     data-aos-offset="300" data-aos-duration="1500" 
-     data-aos-easing="ease-in-sine">
+          <p
+            className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine"
+          >
             Meet Bongo Cat: the next meme sensation in the wild world of crypto.
             Think you've seen it all with Shiba, Baby Doge, and our dear froggy
             friend Pepe? Think again. Here comes a feline with rhythm, ambition,
@@ -31,26 +41,18 @@ function About() {
           {/* <img src="images/about-img.png" alt=""  data-aos="fade-up"
      data-aos-offset="300" data-aos-duration="1500" 
      data-aos-easing="ease-in-sine"/> */}
-     <div className=" rounded-sm relative mx-auto flex justify-center gap-10 items-center">
-      <img src="images/star2.png" alt=""  className=" h-[150px] floating hidden sm:block"/>
-     <video
-        autoPlay
-        loop
-        muted
-        playsInline // Add playsInline for iOS Safari
-        className="  object-cover rounded-md border-2 sm:h-[400px]"
-      >
-        {/* Provide multiple video formats */}
-        <source src="images/bg-main.mp4" type="video/mp4" />
-        <source src="videos/bg-video.webm" type="video/webm" />
-        Your browser does not support the video tag.
-      </video>
-      <img src="images/star2.png" alt=""  className=" h-[150px] floating hidden sm:block"/>
-     </div>
+          <div className=" rounded-sm relative mx-auto flex justify-center gap-10 items-center">
+         
+        <img src="images/hero-2.png" alt="" className=" h-[350px] mx-auto" />
+            <img
+              src="images/star.png"
+              alt=""
+              className=" h-[150px] floating hidden sm:block"
+            />
+          </div>
         </div>
-          {/* <img src="images/sky.png" alt="" className=" absolute -top-[90%] -right-[40%] -z-10 h-[900px] "  /> */}
+        {/* <img src="images/sky.png" alt="" className=" absolute -top-[90%] -right-[40%] -z-10 h-[900px] "  /> */}
       </div>
-   
     </section>
   );
 }

@@ -12,12 +12,12 @@ function App() {
     <div className="flex flex-col">
       <main className="flex-1">
         <div className="relative z-10">
-          <div className="lg:absolute relative sm:top-8 2xl:top-10 left-0 w-full z-50">
+          <div className="lg:absolute relative sm:top-2  left-0 w-full z-50">
             <Navbar />
           </div>
 
           <div className="mb-10 lg:mb-20">
-          <section className="section">
+          {/* <section className="section">
             <span className="span"></span>
             <span className="span"></span>
             <span className="span"></span>
@@ -28,7 +28,7 @@ function App() {
             <span className="span"></span>
             <span className="span"></span>
             <span className="span"></span>
-        </section>
+        </section> */}
             <Hero />
           </div>
         </div>
