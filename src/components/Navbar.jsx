@@ -23,7 +23,7 @@ function Navbar() {
             Home
             </Link>
             <a
-            href="/"
+            href="https://t.me/skittysol"
             target="_blank"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm sm:text-xl font-dream2"
@@ -88,13 +88,13 @@ function Navbar() {
           >
             HOME
           </Link>
-          <Link
-            to="#"
+          <a
+           href="https://t.me/skittysol"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
           Telegram
-          </Link>
+          </a>
           <Link
             to="roadmap"
             onClick={() => setSidebarOpen(false)}
