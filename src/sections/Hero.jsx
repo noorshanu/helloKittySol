@@ -39,7 +39,7 @@ function Hero() {
           className="x3 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[170px]  "
         />
 
-        <h2 className=" py-2 font-dream2 text-xl font-medium mt-12">
+        <h2 className=" py-2 font-dream2 text-xl sm:text-2xl font-semibold mt-12">
         Welcome to SKITTY: Where Staking's a Treat and Rewards are Extra Sweet
         </h2>
         <img
