@@ -44,9 +44,9 @@ function App() {
           <Product />
         </div>
 
-        <div id="roadmap">
+        {/* <div id="roadmap">
           <Roadmap />
-        </div>
+        </div> */}
 
         <div className="mb-20">
           <FeaturedOn />

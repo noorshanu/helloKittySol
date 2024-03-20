@@ -22,6 +22,8 @@ function Hero() {
      data-aos-easing="ease-in-sine"
           alt=""
         />
+
+        <p className=" text-xs py-2 sm:text-xl font-semibold">Contract: wewrfesjkfhsdkfjghdxkhkldxfhjos</p>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
 
          
@@ -31,9 +33,9 @@ function Hero() {
        
       
       
-            <h1 className=" font-bold text-sm sm:text-2xl font-dream2 bg-[#fff] border-2 rounded-3xl py-1 px-4  ">
+            <a href="https://t.me/skittysol" target="_blank" className=" font-bold text-sm sm:text-2xl font-dream2 bg-[#fff] border-2 rounded-3xl py-1 px-4  ">
              Telegram
-            </h1>
+            </a>
           
         </div>
       </div>

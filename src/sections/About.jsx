@@ -20,20 +20,19 @@ function About() {
 
           <p
             className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
-            data-aos="fade-up"
-            data-aos-offset="300"
-            data-aos-duration="1500"
-            data-aos-easing="ease-in-sine"
+         
           >
-            Meet Bongo Cat: the next meme sensation in the wild world of crypto.
-            Think you've seen it all with Shiba, Baby Doge, and our dear froggy
-            friend Pepe? Think again. Here comes a feline with rhythm, ambition,
-            and a dream to join the meme coin hall of fame. Why should dogs and
-            frogs have all the fun? Introducing Bongo Cat ($BONGO) – a token
-            that's purring its way to the top of the meme food chain. Missed the
-            Doge train? Froze before grabbing some Pepe? Don't let history
-            repeat itself. Jump onto the $BONGO bandwagon and let’s make crypto
-            history... or at least some really good memes.
+            Enter the magical world of SKITTY, where memes meet crypto in a
+            delightful fusion of cuteness and moon-worthy adventures! Inspired
+            by the beloved Hello Kitty, SKITTY brings joy to the world of Solana
+            with playful memes and adorable adventures.
+          </p>
+
+          <p
+            className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
+         
+          >
+           In the whimsical realm of SKITTY, meme creation takes center stage as SKITTY frolics alongside her friend MIMMY, baking cookies and spreading joy with every meme shared. Inspired by Hello Kitty's bright nature, SKITTY aims to bring smiles to the faces of crypto enthusiasts everywhere.
           </p>
         </div>
 
@@ -42,8 +41,11 @@ function About() {
      data-aos-offset="300" data-aos-duration="1500" 
      data-aos-easing="ease-in-sine"/> */}
           <div className=" rounded-sm relative mx-auto flex justify-center gap-10 items-center">
-         
-        <img src="images/hero-2.png" alt="" className=" h-[350px] mx-auto" />
+            <img
+              src="images/hero-2.png"
+              alt=""
+              className=" h-[350px] mx-auto"
+            />
             <img
               src="images/star.png"
               alt=""

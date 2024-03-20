@@ -8,21 +8,15 @@ function Product() {
         <div className="text-center">
           <Title
             className="text-black"
-            data-aos="fade-up"
-            data-aos-offset="300"
-            data-aos-duration="1500"
-            data-aos-easing="ease-in-sine"
+          
           >
              Features
           </Title>
         </div>
 
         <div
-          className="flex flex-col sm:flex-row justify-between gap-3 my-12 relative z-10"
-          data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-duration="1500"
-          data-aos-easing="ease-in-sine"
+          className="flex flex-col sm:flex-row justify-center gap-4 my-12 relative z-10"
+      
         >
           <div>
             <img
@@ -39,7 +33,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-             AI Music <br /> Generator
+            Cute SKITTY NFTs
             </h3>
           </div>
           <div className=" text-center">
@@ -49,31 +43,12 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-      Yield  <br />Farming
+            Staking with SKITTY
             </h3>
           </div>
 
-          <div className=" text-center">
-            <img
-              src="images/3.png"
-              alt=""
-              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
-            />
-            <h3 className="font-dream text-lg py-4 ">
-        Concerts
-            </h3>
-          </div>
-          <div className=" text-center">
-            <img
-              src="images/4.png"
-              alt=""
-              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
-            />
-            <h3 className="font-dream text-lg py-4 ">
-              NFTs <br />
-              Trading Platform
-            </h3>
-          </div>
+       
+       
         </div>
         <div className="relative flex justify-center ml-0 sm:ml-14">
         
