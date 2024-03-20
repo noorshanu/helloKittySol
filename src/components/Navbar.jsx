@@ -59,7 +59,7 @@ function Navbar() {
             <Link
               to="tokenomics"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-xl font-dream2"
+              className="cursor-pointer text-sm sm:text-xl font-dream2"
             >
            Tokenomics
             </Link>
