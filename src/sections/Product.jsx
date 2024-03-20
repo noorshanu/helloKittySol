@@ -13,7 +13,7 @@ function Product() {
             data-aos-duration="1500"
             data-aos-easing="ease-in-sine"
           >
-            Bongo cat features
+             Features
           </Title>
         </div>
 
@@ -39,7 +39,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo AI Music <br /> Generator
+             AI Music <br /> Generator
             </h3>
           </div>
           <div className=" text-center">
@@ -49,7 +49,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo Yield  <br />Farming
+      Yield  <br />Farming
             </h3>
           </div>
 
@@ -60,7 +60,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo Concerts
+        Concerts
             </h3>
           </div>
           <div className=" text-center">
@@ -70,20 +70,16 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo Music NFTs <br />
+              NFTs <br />
               Trading Platform
             </h3>
           </div>
         </div>
         <div className="relative flex justify-center ml-0 sm:ml-14">
-          <img
-            src="/images/btn-green.png"
-            className="w-[220px] h-auto"
-            alt=""
-          />
-          <h1 className=" absolute top-[32%] left-[37%] sm:left-[46%]  font-bold text-xl">
-            BUY NOW
-          </h1>
+        
+        <a href="/" target="" className=" bg-[#fff] border-2 rounded-3xl py-1 px-4  font-bold text-sm sm:text-2xl font-dream2 ">
+              Buy Now
+            </a>
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import Title from "components/Title";
 
 function Tokenomics() {
   return (
-    <section className="container-wrapper bg-[#ffb7ef] rounded-2xl py-10 sm:py-14 px-4 sm:px-10 relative z-10">
+    <section className="container-wrapper bg-[#ffb7ef00] rounded-2xl py-10 sm:py-14 px-4 sm:px-10 relative z-10 shadow-lg border-4 border-[#ffffff]"> 
       <Title className="text-black mb-10 text-center" data-aos="fade-up"
      data-aos-offset="300" data-aos-duration="1500" 
      data-aos-easing="ease-in-sine">Tokenomics</Title>
@@ -18,12 +18,8 @@ function Tokenomics() {
      </div>
 
       <div className="grid sm:grid-cols-2 gap-10 items-center">
-        <img src="/images/token.jpeg" className="w-full rounded-full shadow-lg" alt=""  data-aos="fade-right"
-     data-aos-offset="300" data-aos-duration="1500" 
-     data-aos-easing="ease-in-sine"/>
-        <div className="" data-aos="fade-left"
-     data-aos-offset="300" data-aos-duration="1500" 
-     data-aos-easing="ease-in-sine">
+        <img src="/images/token.jpeg" className="w-full rounded-full border-2 shadow-lg" alt=""  />
+        <div className="" >
      
           <div className="bg-[#dbffc6] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
             <p className=" uppercase">Liquidity = 70%</p>
