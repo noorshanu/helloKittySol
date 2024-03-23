@@ -50,11 +50,11 @@ function Hero() {
         />
 
         <a
-          href="https://solscan.io/token/GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN"
+          href="https://solscan.io/token/7ghQGC53CJwfsuYBCMsSVthQa4dpQ64zFGJw5hVrBfZ3"
           target="_blank"
           className=" text-xs py-2 sm:text-xl font-semibold"
         >
-          Contract: GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN
+          Contract: 7ghQGC53CJwfsuYBCMsSVthQa4dpQ64zFGJw5hVrBfZ3
         </a>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
           <a
