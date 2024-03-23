@@ -37,9 +37,9 @@ function App() {
           <About />
         </div>
 
-        <div className="mb-14 lg:mb-20" id="tokenomics">
+        {/* <div className="mb-14 lg:mb-20" id="tokenomics">
           <Tokenomics />
-        </div>
+        </div> */}
         <div className="mb-14 lg:mb-20" id="tokenomics">
           <Product />
         </div>

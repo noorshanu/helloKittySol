@@ -34,7 +34,7 @@ function JoinCommunity() {
 
           <img src="images/logo.png" alt="" className="h-[10rem]" />
 
-          <h2 className=" py-2 text-4xl font-medium text-center font-dream2">Skitty</h2>
+          <h2 className=" py-2 text-4xl font-medium text-center font-dream2">SOLKITTY</h2>
           </div>
           <div className=" w-full  max-w-xl  space-y-2">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-dream2 lh-1_4 text-center">
@@ -64,7 +64,7 @@ function JoinCommunity() {
 
         <div className="flex  items-center justify-center ">
           <p className="text-center font-dream2  font-bold">
-            All rights reserved | by Skitty 2023
+            All rights reserved | by SOLKITTY 2023
           </p>
         </div>
       </div>

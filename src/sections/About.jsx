@@ -15,16 +15,16 @@ function About() {
             data-aos-duration="1500"
             data-aos-easing="ease-in-sine"
           >
-            WHAT IS Skitty ?
+            WHAT IS SOLKITTY ?
           </Title>
 
           <p
             className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
          
           >
-            Enter the magical world of SKITTY, where memes meet crypto in a
+            Enter the magical world of SOLKITTY, where memes meet crypto in a
             delightful fusion of cuteness and moon-worthy adventures! Inspired
-            by the beloved Hello Kitty, SKITTY brings joy to the world of Solana
+            by the beloved Hello Kitty, SOLKITTY brings joy to the world of Solana
             with playful memes and adorable adventures.
           </p>
 
@@ -32,7 +32,7 @@ function About() {
             className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
          
           >
-           In the whimsical realm of SKITTY, meme creation takes center stage as SKITTY frolics alongside her friend MIMMY, baking cookies and spreading joy with every meme shared. Inspired by Hello Kitty's bright nature, SKITTY aims to bring smiles to the faces of crypto enthusiasts everywhere.
+           In the whimsical realm of SOLKITTY, meme creation takes center stage as SOLKITTY frolics alongside her friend MIMMY, baking cookies and spreading joy with every meme shared. Inspired by Hello Kitty's bright nature, SOLKITTY aims to bring smiles to the faces of crypto enthusiasts everywhere.
           </p>
         </div>
 
@@ -42,14 +42,14 @@ function About() {
      data-aos-easing="ease-in-sine"/> */}
           <div className=" rounded-sm relative mx-auto flex justify-center gap-10 items-center">
             <img
-              src="images/hero-2.png"
+              src="images/hero2.jpeg"
               alt=""
-              className=" h-[350px] mx-auto"
+              className=" h-[350px] mx-auto rounded-3xl"
             />
             <img
               src="images/star.png"
               alt=""
-              className=" h-[150px] floating hidden sm:block"
+              className=" h-[150px] floating hidden sm:block "
             />
           </div>
         </div>

@@ -19,7 +19,7 @@ function Hero() {
           className="floating  absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block"
         />
         <img
-          src="images/star2.png"
+          src="images/star.png"
           alt=""
           className="floating  absolute top-[46%] right-[10%] w-auto h-[120px] hidden sm:block"
         />
@@ -40,19 +40,20 @@ function Hero() {
         />
 
         <h2 className=" py-2 font-dream2 text-xl sm:text-2xl font-semibold mt-12">
-        Welcome to SKITTY: Where Staking's a Treat and Rewards are Extra Sweet
+          Welcome to SOLKITTY: Where Staking's a Treat and Rewards are Extra Sweet
         </h2>
         <img
           src="/images/hero-img.png"
-          className="w-full lg:w-[55%] lg:h-[60%] object-contain"
-          data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-duration="1500"
-          data-aos-easing="ease-in-sine"
+          className="w-full lg:w-[55%] lg:h-[60%] object-contain rounded-full"
+        
           alt=""
         />
 
-        <a href="https://solscan.io/token/GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN" target="_blank" className=" text-xs py-2 sm:text-xl font-semibold">
+        <a
+          href="https://solscan.io/token/GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN"
+          target="_blank"
+          className=" text-xs py-2 sm:text-xl font-semibold"
+        >
           Contract: GbJCDuzVStvqWcNpqZa65DeWLP9KNZ2JvjFxRZmEFyYN
         </a>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
@@ -65,7 +66,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://t.me/skittysol"
+            href="https://t.me/SOLKITTYsol"
             target="_blank"
             className=" font-bold text-sm sm:text-2xl font-dream2 bg-[#fff] border-2 rounded-3xl py-1 px-4  "
           >
