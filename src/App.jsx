@@ -48,9 +48,9 @@ function App() {
           <Roadmap />
         </div> */}
 
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <FeaturedOn />
-        </div>
+        </div> */}
       </main>
 
       <div id="contact">
