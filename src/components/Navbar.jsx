@@ -61,7 +61,7 @@ function Navbar() {
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm sm:text-xl font-dream2"
             >
-           Tokenomics
+       About Us
             </Link>
           </div>
         </div>
@@ -107,7 +107,7 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-         TOKENOMICS
+       
           </Link>
         </div>
       </div>
