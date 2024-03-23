@@ -33,7 +33,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-            Cute SKITTY NFTs
+            Cute SOLKITTY NFTs
             </h3>
           </div>
           <div className=" text-center">
@@ -43,7 +43,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
             />
             <h3 className="font-dream text-lg py-4 ">
-            Staking with SKITTY
+            Staking with SOLKITTY
             </h3>
           </div>
 
