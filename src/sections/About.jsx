@@ -15,16 +15,16 @@ function About() {
             data-aos-duration="1500"
             data-aos-easing="ease-in-sine"
           >
-            WHAT IS SOLKITTY ?
+            WHAT IS FATKITTY ?
           </Title>
 
           <p
             className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
          
           >
-            Enter the magical world of SOLKITTY, where memes meet crypto in a
+            Enter the magical world of FATKITTY, where memes meet crypto in a
             delightful fusion of cuteness and moon-worthy adventures! Inspired
-            by the beloved Hello Kitty, SOLKITTY brings joy to the world of Solana
+            by the beloved Hello Kitty, FATKITTY brings joy to the world of Solana
             with playful memes and adorable adventures.
           </p>
 
@@ -32,7 +32,7 @@ function About() {
             className="font-daughter text-base sm:text-xl font-medium max-w-full text-white sm:max-w-3xl mx-auto "
          
           >
-           In the whimsical realm of SOLKITTY, meme creation takes center stage as SOLKITTY frolics alongside her friend MIMMY, baking cookies and spreading joy with every meme shared. Inspired by Hello Kitty's bright nature, SOLKITTY aims to bring smiles to the faces of crypto enthusiasts everywhere.
+           In the whimsical realm of FATKITTY, meme creation takes center stage as FATKITTY frolics alongside her friend MIMMY, baking cookies and spreading joy with every meme shared. Inspired by Hello Kitty's bright nature, FATKITTY aims to bring smiles to the faces of crypto enthusiasts everywhere.
           </p>
         </div>
 

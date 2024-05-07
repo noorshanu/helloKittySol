@@ -23,7 +23,7 @@ function Navbar() {
             Home
             </Link>
             <a
-            href="https://t.me/solkitty_s"
+            href="https://t.me/fatkittys"
             target="_blank"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm sm:text-xl font-dream2"
@@ -38,7 +38,7 @@ function Navbar() {
               className="w-full max-w-[3.2rem] "
               alt=""
             />
-            <p className=" font-dream2  text-xl sm:text-2xl">SOLKITTY</p>
+            <p className=" font-dream2  text-xl sm:text-2xl">FATKITTY</p>
           </div>
 
           <button
@@ -89,7 +89,7 @@ function Navbar() {
             HOME
           </Link>
           <a
-           href="https://t.me/solkitty_s"
+           href="https://t.me/fatkittys"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >

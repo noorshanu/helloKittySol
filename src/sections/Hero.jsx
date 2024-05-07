@@ -40,7 +40,7 @@ function Hero() {
         />
 
         <h2 className=" py-2 font-dream2 text-xl sm:text-2xl font-semibold mt-12">
-          Welcome to SOLKITTY: Where Staking's a Treat and Rewards are Extra Sweet
+          Welcome to FATKITTY: Where Staking's a Treat and Rewards are Extra Sweet
         </h2>
         <img
           src="/images/hero-img.png"
@@ -66,7 +66,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://t.me/solkitty_s"
+            href="https://t.me/fatkittys"
             target="_blank"
             className=" font-bold text-sm sm:text-2xl font-dream2 bg-[#fff] border-2 rounded-3xl py-1 px-4  "
           >
