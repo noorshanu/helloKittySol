@@ -54,7 +54,7 @@ function Hero() {
           target="_blank"
           className=" text-xs py-2 sm:text-xl font-semibold"
         >
-          Contract: 7ghQGC53C5hVrBfZ3
+          Contract: BRRCspHqz2YAERdWeQb7AnpiY2FxyXviWCPFzsSw9W6F
         </a>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
           <a
