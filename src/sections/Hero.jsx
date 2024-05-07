@@ -50,15 +50,15 @@ function Hero() {
         />
 
         <a
-          href="https://solscan.io/token/7ghQGC53CJwfsuYBCMsSVthQa4dpQ64zFGJw5hVrBfZ3"
+          href="https://solscan.io/token/"
           target="_blank"
           className=" text-xs py-2 sm:text-xl font-semibold"
         >
-          Contract: 7ghQGC53CJwfsuYBCMsSVthQa4dpQ64zFGJw5hVrBfZ3
+          Contract: 7ghQGC53C5hVrBfZ3
         </a>
         <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
           <a
-            href="https://www.dextools.io/app/en/solana/pair-explorer/ByMZKVXJs3E9RaGUizML24nMqFccb2KFSxw1QjH8qgkn?t=1711211077354"
+            href="#"
             target="_blank"
             className=" bg-[#fff] border-2 rounded-3xl py-1 px-4  font-bold text-sm sm:text-2xl font-dream2 "
           >

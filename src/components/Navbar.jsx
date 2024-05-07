@@ -49,7 +49,7 @@ function Navbar() {
           </button>
 
           <div className="items-center justify-evenly text-base font-medium text-black hidden lg:flex">
-            <a href="https://twitter.com/Sol_Kitty_" target="_blank"
+            <a href="hhttps://twitter.com/FatKitty_11" target="_blank"
               to="roadmap"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm sm:text-xl font-dream2"
